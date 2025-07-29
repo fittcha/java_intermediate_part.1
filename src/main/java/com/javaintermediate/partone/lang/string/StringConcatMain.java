@@ -1,0 +1,14 @@
+package com.javaintermediate.partone.lang.string;
+
+public class StringConcatMain {
+    public static void main(String[] args) {
+        String a = "hello";
+        String b = " java";
+
+        String result1 = a.concat(b);
+        String result2 = a + b; // 자바 언어에서 편의상 String만 + 연산을 허용
+
+        System.out.println("result1 = " + result1);
+        System.out.println("result2 = " + result2);
+    }
+}
